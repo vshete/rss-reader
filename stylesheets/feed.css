@@ -1,0 +1,28 @@
+.feedLeft, .feedRight {
+	position: absolute;
+	top: 10%;
+	width: 37.5%;
+	text-align: center;
+}
+.feedLeft {	
+	left: 10%;
+}
+.feedRight {
+	left: 52.5%;
+}
+.title {
+	font-weight: bold;
+	padding: 0.5% 2%;
+}
+.title > a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.summary {
+	padding: 0 2% 2% 2%;
+}
+.summary > img, .summary > iframe {
+	display: block;
+	margin: auto;
+}

@@ -1,0 +1,22 @@
+{% include "layout.html" %}
+<link rel="stylesheet" type="text/css" href="/stylesheets/feed.css">
+<div class="feedLeft">
+	{% for item in feedLeft %}
+	<div class="item">
+		<div class="title">
+			<a href="{{ item.link }}" target="blank">{{ item.title }}</a>
+		</div>
+		<div class="summary">{{ item.summary|safe }}</div>
+	</div>
+	{% endfor %}
+</div>
+<div class="feedRight">
+	{% for item in feedRight %}
+	<div class="item">
+		<div class="title">
+			<a href="{{ item.link }}" target="blank">{{ item.title }}</a>
+		</div>
+		<div class="summary">{{ item.summary|safe }}</div>
+	</div>
+	{% endfor %}
+</div>

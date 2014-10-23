@@ -1,0 +1,19 @@
+.search {
+	position: fixed;
+	top: 35%;
+	width: 100%;
+	text-align: center;
+}
+input[name="url"] {
+	height: 4%;
+	width: 40%;
+	padding-left: 0.5% ;
+	margin-left: 30%;
+}
+.enterUrl {
+	font-size: 30px;
+	margin-bottom: 2%;
+}
+.btnStl {
+	margin-left: 1%;
+}
